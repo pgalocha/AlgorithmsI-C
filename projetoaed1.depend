@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1448217271 source:c:\projetos\projetoaed1\main.c
+	<stdio.h>
+	"pessoa.h"
+
+1449178163 c:\projetos\projetoaed1\pessoa.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<string_sorting.h>
+
+1449186238 source:c:\projetos\projetoaed1\pessoa.c
+	"pessoa.h"
+	"string_sorting.h"
+	<string.h>
+	"lib_util.h"
+	"quickunion.h"
+	<stdio.h>
+	<stdlib.h>
+
+1445547426 source:c:\projetos\lib\lib_stats.c
+	"lib_stats.h"
+
+1445547425 c:\projetos\lib\lib_stats.h
+	<stdio.h>
+	<float.h>
+	<limits.h>
+	<math.h>
+
+1446153676 source:c:\projetos\lib\lib_util.c
+	"lib_util.h"
+
+1445547422 c:\projetos\lib\lib_util.h
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<windows.h>
+	<sys/time.h>
+
+1448829044 source:c:\projetos\stringsorting\string_sorting.c
+	"string_sorting.h"
+	"lib_util.h"
+	<string.h>
+	<quickunion.h>
+
+1448309876 c:\projetos\stringsorting\string_sorting.h
+
+1413658198 source:c:\projetos\projetoaed1\quickunion.c
+	"quickunion.h"
+
+1413658170 c:\projetos\projetoaed1\quickunion.h
+	<stdio.h>
+
+1413658170 c:\projetos\projetoaed1\\quickunion.h
+	<stdio.h>
+
+1448308959 c:\projetos\projetoaed1\\pessoa.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<string_sorting.h>
+

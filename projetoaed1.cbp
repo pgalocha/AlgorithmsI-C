@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projetoaed1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projetoaed1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/projetos/projetoaed1/" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projetoaed1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../lib" />
+			<Add directory="../stringsorting" />
+		</Compiler>
+		<Unit filename="../lib/lib_stats.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/lib_stats.h" />
+		<Unit filename="../lib/lib_util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/lib_util.h" />
+		<Unit filename="../stringsorting/string_sorting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../stringsorting/string_sorting.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pessoa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pessoa.h" />
+		<Unit filename="quickunion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="quickunion.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

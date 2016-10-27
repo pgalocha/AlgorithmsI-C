@@ -1,0 +1,4 @@
+MSD: 9603386 ms
+LSD: 3094009 ms
+Binary: 6712511 ms
+UNION: 15607 ms
